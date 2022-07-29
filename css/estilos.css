@@ -1,0 +1,244 @@
+/*comentario en css */
+
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    left: 0%;
+    top: 0%;
+    font-size: large;
+    font-weight: 700;
+
+}
+
+
+.header {
+    /*background: url(../Imagenes/tarjeta_vip.jpg)    no-repeat center; */
+    /*background-size: cover; */
+    /*min-height: 100vh; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    min-height: 100px;
+    width: 100%;
+
+}
+
+main {
+    margin-top: 90px;
+}
+
+.nav-link {
+    color: hsl(319, 91%, 46%);
+}
+
+.btn-dark {
+    background-color: #fff6fc;
+    border-color: #dffffe;
+    color: #61053B;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-brand-index {
+    margin-left: -40px;
+}
+
+body {
+    /*background-color: #fff0ff */
+}
+
+.form-control {
+    /*font-style: oblique; */
+    
+    border-color: #dffffe;
+    background-color: #fff6fc;
+}
+.carousel-item img {
+    height: 500px;
+    object-fit: fill;
+}
+
+.container-fluid {
+    overflow: hidden;
+}
+
+.btn-group-vertical {
+    position: fixed;
+    top: 30%;
+    left: 1%;
+    z-index: 2;
+}
+
+.productos_index {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-img-top {
+    height: 160px;
+}
+
+.card-body {
+    height: 250px;
+}
+
+.titulo_categorias_tienda {
+    background: linear-gradient(to right, rgb(255, 110, 127), rgb(191, 233, 255));
+    text-align: start;
+    padding-left: 20px;
+}
+
+.productos_tienda {
+    height: 350px;
+    overflow: auto;
+    width: 50%;
+}
+
+.productos_tienda h4 {
+    color: #f2116c;
+}
+.productos_tienda h5 {
+    color: #ed616f;
+}
+
+.nav-link {
+    font-size: x-large;
+    
+}
+
+.nav-pills {
+    --bs-nav-pills-link-active-bg:  #bfe9ff;
+}
+
+.titulo_outfits_tienda {
+    background: linear-gradient(to right, rgb(255, 110, 127), rgb(191, 233, 255));
+    text-align: center;
+}
+
+.texto_mayorista {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+.section1_mayorista {
+    display: flex;
+    margin-bottom: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.btn-dark_mayorista {
+    background-color: #FA9BD3;
+    color: #61053B;
+    margin-left: 500px;
+    margin-right: auto;
+}
+
+.formulario_contacto_mayorista {
+    margin-right: 140px;
+    margin-left: -20px;
+    overflow: hidden;
+}
+
+.main_mayorista {
+    background-image: url(../Imagenes/tarjeta_vip.jpg);
+    background-size: cover;
+    background-position: top;
+    overflow: hidden;
+    width: 100%;
+    margin-left: 1px;
+    margin-right: 0px;
+
+}
+
+.section2_mayorista {
+    margin-left: 0px;
+}
+
+.section1_contacto {
+    display: flex;
+    flex-direction: column;
+    text-align-last: justify;
+}
+
+.titulo_contacto {
+    background: linear-gradient(to right, rgb(255, 110, 127), rgb(191, 233, 255));
+    text-align: end;
+    padding-right: 40px;
+}
+
+.titulo_redes_contacto {
+    background: linear-gradient(to right, rgb(255, 110, 127), rgb(191, 233, 255));
+    padding-left: 40px;
+}
+
+.redes_contacto {
+    text-decoration: none;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.texto_contacto {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-left: 40px;
+    width: 40%;
+    text-transform: uppercase;
+    text-align-last: left;
+}
+
+.btn-dark-1 {
+    background-color: #FA9BD3;
+    color: #61053B;
+    margin-left: 40px;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+.formulario_contacto_ {
+    margin-right: 0px;
+    margin-left: 0px;
+    overflow: hidden;
+    font-style: oblique;
+    font-weight: 300;
+}
+
+.mapa_contacto {
+    margin-top: 30px;
+    margin-left: 0px;
+    overflow: hidden;
+}
+.direccion_contacto {
+    color: #61053B;
+    padding-left: 130px;
+}
+
+footer {
+    background-color: #61053B;
+    color: #FA9BD3;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    left: 0%;
+    top: 0%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
