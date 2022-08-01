@@ -190,7 +190,7 @@ body {
     margin-left: 500px;
     margin-right: auto;
     background-color: #FA9BD3;
-    color: #61053B;
+    color: #be3183;
     margin-top: 0px;
     font-weight: 500;
     border: #bfe9ff;
@@ -206,7 +206,7 @@ body {
 }
 
 .main_mayorista {
-    background-image: url(../Imagenes/tarjeta_vip.jpg);
+    background-image: url(../imagenes/tarjeta_vip.jpg);
     background-size: cover;
     background-position: top;
     overflow: hidden;
