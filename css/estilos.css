@@ -57,7 +57,6 @@ body {
 
 .form-control {
     /*font-style: oblique; */
-
     border-color: #dffffe;
     background-color: #fff6fc;
 }
@@ -79,8 +78,8 @@ body {
 
 .btn-group-vertical {
     position: fixed;
-    top: 30%;
-    left: 1%;
+    top: 70%;
+    left: 93%;
     z-index: 2;
 }
 
@@ -105,12 +104,15 @@ body {
     border-color: #dffffe;
     font-weight: 500;
     border-width: medium;
+    margin-left: 25px;
 }
 
 .titulo_categorias_tienda {
     background: linear-gradient(to right, rgb(255, 110, 127), rgb(191, 233, 255));
     text-align: start;
-    padding-left: 20px;
+    padding: 10px;
+    font-weight: bolder;
+    margin-bottom: 30px;
 }
 
 .productos_tienda {
@@ -169,19 +171,21 @@ body {
     background: linear-gradient(to right, rgb(255, 110, 127), rgb(191, 233, 255));
     text-align: center;
     margin-top: 50px;
+    font-weight: bolder;
 }
 
 .texto_mayorista {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     margin-top: 30px;
-    padding-left: 25px;
+    font-weight: bolder;
+    align-self: center;
 }
 
 .section1_mayorista {
     display: flex;
     margin-bottom: 40px;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
     margin-left: 10px;
     margin-top: 10px;
 }
@@ -207,13 +211,13 @@ body {
 
 .main_mayorista {
     background-image: url(../imagenes/tarjeta_vip.jpg);
-    background-size: cover;
-    background-position: top;
+    background-position-x: 0px;
+    background-position-y: center;
     overflow: hidden;
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
-
+    object-fit: cover;
 }
 
 .section2_mayorista {
@@ -245,20 +249,24 @@ body {
     margin-left: 40px;
 }
 
+.imagen_redes {
+    width: 5%;
+}
+
 .texto_contacto {
     margin-bottom: 30px;
     margin-top: 30px;
-    padding-left: 40px;
-    width: 40%;
+    padding-left: 0px;
+    width: 80%;
     text-transform: uppercase;
-    text-align-last: left;
+    text-align:center;
     font-weight: 700;
 }
 
 .btn-dark-1 {
     background-color: #FA9BD3;
     color: #61053B;
-    margin-left: 40px;
+    margin-left: 0px;
     margin-right: auto;
     margin-top: 0px;
     font-weight: 500;
@@ -290,13 +298,9 @@ footer {
     background-color: #61053B;
     color: #FA9BD3;
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     left: 0%;
+    display: flex;
+    justify-content: space-between;
     top: 0%;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 1rem 1rem;
 }
