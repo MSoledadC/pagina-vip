@@ -88,9 +88,16 @@ body {
     margin-bottom: 50px;
 }
 
+.card-img-top-index {
+    height: 160px;
+    padding: 5px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
 .card-img-top {
     height: 160px;
     padding: 5px;
+    filter: drop-shadow(2px 4px 6px black);
 }
 
 .card-body {
@@ -120,14 +127,15 @@ body {
     width: 100%;
 }
 
-.Fotos_productos_tienda {
-    display: flex;
-
-}
+.Fotos_productos_tienda {}
 
 .img_productos_tienda {
-    width: 100px;
+    width: 150px;
     border-radius: 10px;
+    padding: 5px;
+    height: 150px;
+    filter: drop-shadow(2px 4px 6px black);
+    margin: 25px;
 }
 
 .productos_tienda h4 {
@@ -259,7 +267,7 @@ body {
     padding-left: 0px;
     width: 80%;
     text-transform: uppercase;
-    text-align:center;
+    text-align: center;
     font-weight: 700;
 }
 
@@ -303,4 +311,75 @@ footer {
     justify-content: space-between;
     top: 0%;
     padding: 1rem 1rem;
+}
+
+@media (max-width: 1024px) {
+    .btn-primary-index {
+        margin-left: 10px;
+    }
+
+    .texto_mayorista {
+        text-align: center;
+
+    }
+
+    .btn-dark_mayorista {
+        margin-left: 440px;
+    }
+
+    .main_mayorista {
+        background-position-x: -200px;
+    }
+}
+
+@media (max-width: 600px) {
+    .btn-group-vertical {
+        left: 80%;
+    }
+
+    .card {
+        margin-bottom: 30px;
+    }
+
+    .Fotos_productos_tienda {
+        margin-left: 5px;
+    }
+
+    .img_productos_tienda {
+        margin: 0px;
+    }
+
+    .texto_mayorista {
+        text-align: start;
+        margin: 10px;
+    }
+
+    .btn-dark_mayorista {
+        margin-top: 0px;
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+
+    .main_mayorista {
+        background-position-x: -830px;
+        background-position-y: -564px;
+    }
+
+    .section1_contacto {
+        text-align-last: auto;
+
+    }
+
+    .titulo_redes_contacto {
+        padding-left: 10px;
+    }
+
+    .titulo_contacto{
+        padding-right: 10px;
+    }
+
+    .imagen_redes {
+        width: 75px;
+        padding: 10px;
+    }
 }
