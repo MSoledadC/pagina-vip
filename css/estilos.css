@@ -31,7 +31,7 @@ nav {
 }
 
 main {
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .active_nav {
@@ -46,10 +46,17 @@ main {
 
 ul {
     gap: 100px;
+    margin-left: 10px;
 }
 
 .fixed-top {
     padding: 0px;
+}
+
+.imagen_logo_nav  {
+    margin-right: 20px;
+    width: 100px;
+    height: 60px;
 }
 
 .style-color {
@@ -344,7 +351,8 @@ footer {
     }
 
     ul {
-        gap: 0;
+        gap: 2rem;
+        padding-left: 50px;
     }
 
     .nav-link {
