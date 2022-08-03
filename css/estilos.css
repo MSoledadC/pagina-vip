@@ -258,6 +258,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align-last: justify;
+    margin-bottom: 20px;
 }
 
 .titulo_contacto {
@@ -271,6 +272,7 @@ body {
     background: linear-gradient(to right, rgb(255, 110, 127), rgb(191, 233, 255));
     padding-left: 20px;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .redes_contacto {
@@ -341,6 +343,20 @@ footer {
         margin-left: 10px;
     }
 
+    ul {
+        gap: 0;
+    }
+
+    .nav-link {
+        font-size: larger;
+    }
+
+    .card_index {
+        width: 30%;
+        padding-bottom: 20px;
+        margin-left: 25px;
+    }
+
     .texto_mayorista {
         text-align: center;
 
@@ -351,7 +367,12 @@ footer {
     }
 
     .main_mayorista {
-        background-position-x: -200px;
+        background-position-x: -352px;
+        background-position-y: 1062px;
+    }
+
+    .section1_mayorista {
+        flex-direction: column;
     }
 }
 
@@ -370,6 +391,11 @@ footer {
 
     .card {
         margin-bottom: 30px;
+    }
+
+    .card_index {
+        width: 100%;
+        margin: 0px;
     }
 
     main {
@@ -414,7 +440,7 @@ footer {
         padding-top: 15px;
     }
 
-    .section1_mayorista{
+    .section1_mayorista {
         margin: 10px;
     }
 
@@ -424,6 +450,8 @@ footer {
 
     .section1_contacto {
         text-align-last: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
 
     }
 
@@ -445,6 +473,10 @@ footer {
     .imagen_redes {
         width: 75px;
         padding: 10px;
+        margin: 0px;
+    }
+
+    .redes_contacto {
         margin: 0px;
     }
 
