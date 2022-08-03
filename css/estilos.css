@@ -165,7 +165,6 @@ body {
 }
 
 .Outfits_tienda {
-    margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 20px;
     margin-right: 20px;
@@ -197,9 +196,10 @@ body {
 .titulo_outfits_tienda {
     background: linear-gradient(to right, rgb(255, 110, 127), rgb(191, 233, 255));
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
     font-weight: bolder;
     padding: 10px;
+    margin-bottom: 60px;
 }
 
 .texto_mayorista {
@@ -394,8 +394,14 @@ footer {
     }
 
     .card_index {
-        width: 100%;
-        margin: 0px;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .productos_index {
+        margin-bottom: 20px;
     }
 
     main {
@@ -403,12 +409,13 @@ footer {
     }
 
     .Fotos_productos_tienda {
-        margin-left: 5px;
+
         display: inherit;
     }
 
     .img_productos_tienda {
-        margin: 0px;
+        width: 70%;
+        margin: 15px;
     }
 
     .Outfits_tienda {
@@ -437,19 +444,20 @@ footer {
 
     .formulario_contacto_mayorista {
         font-weight: 900;
-        padding-top: 15px;
+        padding-top: 45px;
     }
 
     .section1_mayorista {
         margin: 10px;
+        flex-direction: column;
     }
 
     .btn-dark-1 {
         margin-bottom: 30px;
     }
-
+    
     .section1_contacto {
-        text-align-last: auto;
+
         margin-top: 20px;
         margin-bottom: 20px;
 
@@ -480,8 +488,10 @@ footer {
         margin: 0px;
     }
 
-    .section1_mayorista {
-        flex-direction: column;
+    .imagen_logo_nav {
+        margin-left: 82px;
+        margin-bottom: -21px;
     }
+
 
 }
