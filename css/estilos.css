@@ -30,8 +30,8 @@ nav {
     flex-direction: row;
 }
 
-main {
-    margin-top: 60px;
+.carousel_index_portada {
+   margin-top: 60px;
 }
 
 .active_nav {
@@ -45,8 +45,8 @@ main {
 }
 
 ul {
-    gap: 100px;
-    margin-left: 10px;
+    gap: 90px;
+    margin-left: 40px;
 }
 
 .fixed-top {
@@ -55,7 +55,7 @@ ul {
 
 .imagen_logo_nav  {
     margin-right: 20px;
-    width: 100px;
+    width: 90px;
     height: 60px;
 }
 
@@ -83,8 +83,9 @@ body {
 }
 
 .carousel-item img {
-    height: 500px;
+    height: 700px;
     object-fit: fill;
+    overflow: hidden;
 }
 
 .container-fluid {
@@ -114,7 +115,7 @@ body {
 }
 
 .card-img-top {
-    height: 160px;
+    height: 200px;
     padding: 5px;
     filter: drop-shadow(2px 4px 6px black);
 }
@@ -139,27 +140,28 @@ body {
     padding: 10px;
     font-weight: bolder;
     margin-bottom: 30px;
+    margin-top: 60px;
 }
 
 .productos_tienda {
     overflow: auto;
     width: 100%;
+    margin-left: 0px;
 }
 
 .Fotos_productos_tienda {
     flex-wrap: wrap;
     display: flex;
-    gap: 25px;
-    margin-left: 55px;
+    gap: 30px;
+    margin-left: 50px;
 }
 
 .img_productos_tienda {
-    width: 150px;
+    width: 200px;
     border-radius: 10px;
     padding: 5px;
-    height: 150px;
+    height: 200px;
     filter: drop-shadow(2px 4px 6px black);
-    margin: 25px;
 }
 
 .productos_tienda h4 {
@@ -223,7 +225,7 @@ body {
     flex-direction: row;
     align-items: center;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 70px;
 }
 
 .btn-dark_mayorista {
@@ -259,6 +261,7 @@ body {
 
 .section2_mayorista {
     margin-left: 0px;
+    margin-bottom: 50px;
 }
 
 .section1_contacto {
@@ -280,6 +283,7 @@ body {
     padding-left: 20px;
     font-weight: 700;
     margin-bottom: 20px;
+    margin-top: 60px;
 }
 
 .redes_contacto {
@@ -294,7 +298,7 @@ body {
 
 .texto_contacto {
     margin-bottom: 30px;
-    margin-top: 30px;
+    margin-top: 0px;
     padding-left: 0px;
     width: 80%;
     text-transform: uppercase;
@@ -314,8 +318,8 @@ body {
 }
 
 .formulario_contacto_ {
-    margin-right: 0px;
-    margin-left: 0px;
+    margin-right: 15px;
+    margin-left: -20px;
     overflow: hidden;
     font-style: oblique;
     font-weight: 300;
@@ -323,7 +327,7 @@ body {
 
 .mapa_contacto {
     margin-top: 30px;
-    margin-left: 0px;
+    margin-left: 40px;
     overflow: hidden;
 }
 
@@ -352,26 +356,44 @@ footer {
 
     ul {
         gap: 2rem;
-        padding-left: 50px;
+        margin-left: 0px;
     }
 
+   .carousel_index_portada {
+       margin-top: 0px;
+    }
+
+    .imagen_logo_nav {
+        margin-left: 10px;
+    }
     .nav-link {
         font-size: larger;
     }
 
     .card_index {
-        width: 30%;
-        padding-bottom: 20px;
-        margin-left: 25px;
+        width: 40%;
+        padding: 30px;
+        margin-left: 60px;
+    }
+
+    .titulo_categorias_tienda {
+        margin-top: 60px;
+    }
+
+    .img_productos_tienda{
+        margin-left: 10px;
+    }
+    .Fotos_productos_tienda{
+        margin-left: 40px;
     }
 
     .texto_mayorista {
-        text-align: center;
+        margin-left: 10px;
 
     }
 
     .btn-dark_mayorista {
-        margin-left: 440px;
+        margin-left: 40px;
     }
 
     .main_mayorista {
@@ -381,6 +403,15 @@ footer {
 
     .section1_mayorista {
         flex-direction: column;
+        margin-top: 60px;
+    }
+
+    .titulo_redes_contacto {
+        margin-top: 60px;
+    }
+
+    .texto_contacto {
+        margin-top: 0px;
     }
 }
 
@@ -391,10 +422,16 @@ footer {
 
     ul {
         gap: 0;
+        margin-left: 0px;
     }
 
     .nav-link {
         font-size: small;
+    }
+
+    .imagen_logo_nav {
+        margin-left: 100px;
+        margin-bottom: -21px;
     }
 
     .card {
@@ -426,6 +463,9 @@ footer {
         margin: 15px;
     }
 
+    .titulo_categorias_tienda {
+        margin-top: 40px;
+    }
     .Outfits_tienda {
         margin-bottom: 30px;
     }
@@ -446,18 +486,22 @@ footer {
     }
 
     .main_mayorista {
-        background-position-x: -800px;
+        background-position-x: -834px;
         background-position-y: -560px;
     }
 
     .formulario_contacto_mayorista {
         font-weight: 900;
-        padding-top: 45px;
+        
     }
 
     .section1_mayorista {
         margin: 10px;
         flex-direction: column;
+    }
+
+    .section2_mayorista {
+        margin-bottom: 45px;
     }
 
     .btn-dark-1 {
@@ -473,10 +517,20 @@ footer {
 
     .titulo_redes_contacto {
         padding-left: 10px;
+        margin-top: 0px;
     }
 
     .titulo_contacto {
         padding-right: 10px;
+    }
+
+    .formulario_contacto_ {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .mapa_contacto {
+        margin-left: 0px;
     }
 
     .texto_contacto {
@@ -496,10 +550,7 @@ footer {
         margin: 0px;
     }
 
-    .imagen_logo_nav {
-        margin-left: 82px;
-        margin-bottom: -21px;
-    }
+   
 
 
 }
