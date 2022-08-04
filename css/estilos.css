@@ -159,7 +159,7 @@ body {
 .img_productos_tienda {
     width: 200px;
     border-radius: 10px;
-    padding: 5px;
+    padding: 0px;
     height: 200px;
     filter: drop-shadow(2px 4px 6px black);
 }
@@ -222,7 +222,7 @@ body {
 .section1_mayorista {
     display: flex;
     margin-bottom: 40px;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     margin-left: 10px;
     margin-top: 70px;
@@ -300,9 +300,8 @@ body {
     margin-bottom: 30px;
     margin-top: 0px;
     padding-left: 0px;
-    width: 80%;
+    width: 90%;
     text-transform: uppercase;
-    text-align: center;
     font-weight: 700;
 }
 
@@ -382,7 +381,9 @@ footer {
 
     .img_productos_tienda{
         margin-left: 10px;
+        padding: 0px;
     }
+
     .Fotos_productos_tienda{
         margin-left: 40px;
     }
