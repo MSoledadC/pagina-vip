@@ -14,9 +14,9 @@ nav {
     font-weight: 700;
 }
 
-.header {
+header {
     /*background-size: cover; */
-    min-height: 80px;
+     /*min-height: 60px; */
     background-color: #ffffff;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -462,8 +462,8 @@ footer {
     }
 
     .Fotos_productos_tienda {
-
         display: inherit;
+        margin-left: 60px;
     }
 
     .img_productos_tienda {
@@ -480,6 +480,11 @@ footer {
 
     .titulo_outfits_tienda {
         padding: 10px;
+    }
+
+    .card_tienda {
+        width: 250px;
+        margin-top: 0px;
     }
 
     .texto_mayorista {
