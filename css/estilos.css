@@ -35,7 +35,7 @@ nav {
 }
 
 .active_nav {
-    color: hsl(195, 91%, 46%) !important;
+    color: rgb(191, 233, 255) !important;
     padding-right: 20px !important;
 }
 
@@ -153,7 +153,8 @@ body {
     flex-wrap: wrap;
     display: flex;
     gap: 30px;
-    margin-left: 50px;
+    margin-left: 60px;
+    margin-bottom: 30px;
 }
 
 .img_productos_tienda {
@@ -224,7 +225,7 @@ body {
     margin-bottom: 40px;
     flex-direction: column;
     align-items: center;
-    margin-left: 10px;
+    margin-left: 5px;
     margin-top: 70px;
 }
 
@@ -358,10 +359,6 @@ footer {
         margin-left: 0px;
     }
 
-   .carousel_index_portada {
-       margin-top: 0px;
-    }
-
     .imagen_logo_nav {
         margin-left: 10px;
     }
@@ -386,6 +383,12 @@ footer {
 
     .Fotos_productos_tienda{
         margin-left: 40px;
+    }
+
+    .card_tienda {
+        margin: 20px;
+        width: 200px;
+        padding: 20px;
     }
 
     .texto_mayorista {
@@ -435,12 +438,16 @@ footer {
         margin-bottom: -21px;
     }
 
+    .carousel_index_portada {
+        margin-top: 0px;
+    }
+
     .card {
         margin-bottom: 30px;
     }
 
     .card_index {
-        width: 60%;
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
 
