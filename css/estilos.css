@@ -28,6 +28,7 @@ header {
     width: 100%;
     display: flex;
     flex-direction: row;
+    max-width: 100%;
 }
 
 .carousel_index_portada {
@@ -74,12 +75,7 @@ ul {
 
 body {
     /*background-color: #fff0ff */
-}
-
-.form-control {
-    /*font-style: oblique; */
-    border-color: #dffffe;
-    background-color: #fff6fc;
+    max-width: 100%;
 }
 
 .carousel-item img {
@@ -174,6 +170,11 @@ body {
     color: #ed616f;
 }
 
+.my-1 {
+    margin-bottom: 35px!important;
+}
+
+
 .Outfits_tienda {
     margin-bottom: 50px;
     margin-left: 20px;
@@ -247,6 +248,17 @@ body {
     overflow: hidden;
     font-style: oblique;
     font-weight: 300;
+}
+
+.form-control {
+    /*font-style: oblique; */
+    border-color: #dffffe;
+    background-color: #fff6fc;
+}
+
+.form-select {
+    border-color: #dffffe;
+    background-color: #fff6fc;
 }
 
 .main_mayorista {
@@ -333,7 +345,6 @@ body {
 
 .direccion_contacto {
     color: #61053B;
-
     text-align: center;
 }
 
@@ -345,7 +356,7 @@ footer {
     display: flex;
     justify-content: space-between;
     top: 0%;
-    padding: 10px 10px;
+    padding: 10px 5px 5px 5px;
     font-size: small;
 }
 
